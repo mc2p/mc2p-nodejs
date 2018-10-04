@@ -11,7 +11,7 @@ MyChoice2Pay NodeJS provides integration access to the MyChoice2Pay API.
 
 You can install using `npm`:
 
-    npm install --save mc2p-nodejs
+    npm install --save mc2p
 
 # Code Support
 - EcmaScript 5, EcmaScript 6,  EcmaScript 8, TypeScript, async-await, Promises, Callback !
@@ -93,8 +93,8 @@ You can install using `npm`:
 
     # Create and delete tax
     mc2p.tax.create({
-        "name": "Tax",
-        "percent": 5
+        name: "Tax",
+        percent: 5
     }, function (error, tax) {
         if (error) {
             console.log('error ', error);
