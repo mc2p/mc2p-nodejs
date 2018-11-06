@@ -1,6 +1,6 @@
 {
   "name": "mc2p",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MyChoice2Pay NodeJS Bindings",
   "keywords": [
     "mychoice2pay",
